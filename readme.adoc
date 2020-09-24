@@ -1,0 +1,15 @@
+= BetterBeacons
+
+A Spigot Minecraft server plugin that prevents overworld hostile mobs from spawning around beacons.
+
+== Usage
+
+By default, anti-mob functionality is turned off. Turning it on is done on a per-beacon basis. Point your cursor to a beacon and use the `/beacon add` command.
+
+For example, `/beacon add -range 20 -depth 10` prevents mobs from spawning 20 blocks in any direction and 10 blocks under the beacon. The volume extends upwards infinitely.
+
+The `/beacon remove` disables anti-mob functionality.
+
+The `/beacon info` command can be used to query whether the beacon has anti-mob functionality enabled as well as its tier and potion effects.
+
+The `/beacon save` command can be used to force the plugin to save beacon configuration to disk. It also normally saves when the server closes.

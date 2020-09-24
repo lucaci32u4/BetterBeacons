@@ -1,0 +1,14 @@
+name: ${name}
+description: ${description}
+version: ${version}
+author: ${author}
+main: ${mainClass}
+api-version: 1.16
+website: ${url}
+
+commands:
+  beacon:
+    description: BetterBeacons
+    permission: betterbeacons.beacon
+    permission-message: "You do not have permission to use this command"
+    usage: "Usage: /beacon [ add <range <range> <depth <depth>> | remove | info | save ]"
